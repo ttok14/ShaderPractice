@@ -60,8 +60,9 @@
 			float3 normal = normalize(i.normal);
 			// 최소값이 음수가 되지않도록 max 사용 
 			// dot 으로 버텍스가 바라보는 방향인 normal 과 
-			// 라이트의 위치를 normalize 하여 원점에서 라이트로 향하는 방향을 가지고 
-			// dot 연산을해서 cos 를 구함 . 즉 0도에 가까울수록 1 에 가깝고 180 도에 가까울수록 -1
+			// _WorldSpaceLightPos0 로 directional light 인 경우 direction 값을 가져옴 . 
+			// 즉 _WorldSpaceLightPos0 에는 라이트 타입따라 값이 다름 . directional light 는 
+			// 위치성분의미가없기때문에 _WorldSpaceLightPos0 에 direction 이 들어감 . 
 			float intensity = max(0.0, dot(normal, _WorldSpaceLightPos0.xyz));
 
 			// 텍스쳐 * 강도 * 색상 = 최종색상

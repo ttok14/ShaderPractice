@@ -1,4 +1,4 @@
-﻿Shader "Jayce/Specular"
+﻿Shader "Jayce/Rim"
 {
 	Properties 
 	{
@@ -57,12 +57,14 @@
 		fixed4 frag(v2f i) : SV_TARGET
 		{
 			float3 normal = normalize(i.normal);
+			float3 cameraForward = mul((float3x3)UNITY_MATRIX_V, float3(0, 0, 1));
 			float3 reflectionDir = reflect(-_WorldSpaceLightPos0.xyz, normal);
 
 			float diffuseTerm = max(0.0, dot(normal, _WorldSpaceLightPos0.xyz));
 			float specularTerm = max(_Ambient, pow(dot(normal, reflectionDir), _Wideness) * _Brightness);
+			float rimTerm = max(0.0, dot(normal, cameraForward));
 
-			return tex2D(_MainTex, i.uv) * (_LightColor0 * (specularTerm  + diffuseTerm));
+			return tex2D(_MainTex, i.uv) * (_LightColor0 * rimTerm); // * (specularTerm  + diffuseTerm));
 		}
 
 		ENDCG

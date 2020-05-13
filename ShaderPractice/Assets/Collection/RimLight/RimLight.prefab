@@ -296,7 +296,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38d0eb16b31f1f49bdc0ab78c7442da, type: 2}
+  - {fileID: 2100000, guid: add3c5116dc9ef44eaffb23255a41d09, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -676,7 +676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1539117919374640743}
   m_Layer: 0
-  m_Name: DiffuseLight(Jayce_BasicTexture)
+  m_Name: SpecularLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
