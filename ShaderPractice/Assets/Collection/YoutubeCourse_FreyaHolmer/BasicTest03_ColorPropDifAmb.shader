@@ -1,9 +1,10 @@
-Shader "YoutubeCourse/BasicTest_UnityLight"
+Shader "YoutubeCourse/BasicTest03_ColorPropDifAmb"
 {
 	Properties
 	{
+		_Color("Color", Color) = (1,1,1,0)
 	}
-	SubShader
+		SubShader
 	{
 		Tags { "RenderType" = "Opaque" }
 
@@ -31,6 +32,8 @@ Shader "YoutubeCourse/BasicTest_UnityLight"
 		  float3 normal : TEXCOORD1;
 	  };
 
+	float4 _Color;
+
 	FragmentInput vert(VertexInput v)
 	{
 		FragmentInput o;
@@ -41,23 +44,27 @@ Shader "YoutubeCourse/BasicTest_UnityLight"
 		return o;
 	}
 
-	/// Fragment shader 프로세싱 함수 
-	/// 결과값으로는 2D Screen 에 출력할 최종 픽셀을 반환함
-
-	/// SV_Target 은 semantic 으로 , Color 를 의미하는 거라고 한다 . (DX10 에선 COLOR 이었는데 11 부터 SV_Target 이라함)
 	fixed4 frag(FragmentInput i) : SV_Target
 	{
-		/// 빛의 방향은 Direction Light 의 방향으로 설정 
-		/// https ://docs.unity3d.com/Manual/SL-UnityShaderVariables.html 참고
-		float lightDir = _WorldSpaceLightPos0;
-		float light = max(0, dot(lightDir , i.normal));
+		/// #include "UnityLightingCommon.cginc" 선언하면 
+		/// UnityLightingCommon.cginc 에 접근해서 가져올수 있음
+		float3 lightDir = _WorldSpaceLightPos0;
+		float4 lightColor = _LightColor0;
 
-		/// 색상은 Light 의 Color 로 설정 
-	  return fixed4((_LightColor0* light).xyz, 0);
+		/// Diffuse 
+		float4 diffuse = max(0, dot(i.normal, lightDir)) * lightColor;
+
+		/// Ambient
+		float4 ambient = float4(0.15, 0.15, 0.3, 0);
+
+		/// Calculate FinalColor
+		float4 finalColor = _Color * (diffuse + ambient);
+
+		return finalColor;
 	}
 
-			/// CG 프로그램 끝을 알림 
-			ENDCG
-		}
+		/// CG 프로그램 끝을 알림 
+		ENDCG
+	}
 	}
 }
