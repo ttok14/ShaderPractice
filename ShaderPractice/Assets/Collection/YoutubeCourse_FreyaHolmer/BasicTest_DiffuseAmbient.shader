@@ -1,4 +1,4 @@
-Shader "Unlit/BasicTest01"
+Shader "YoutubeCourse/BasicTest_DiffuseAmbient"
 {
 	Properties
 	{
