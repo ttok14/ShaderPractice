@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BasicTest04_Specular
-  m_Shader: {fileID: 4800000, guid: 74abc6a1aba84654282ac67fee3e7092, type: 3}
+  m_Shader: {fileID: 4800000, guid: f442232bef7d7e547a30a71d68c1c036, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -61,6 +61,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Gloss: 3
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -74,6 +75,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.49038807, g: 0.7169812, b: 0.7000921, a: 1}
+    - _Color: {r: 0.24563903, g: 0.754717, b: 0.43529555, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

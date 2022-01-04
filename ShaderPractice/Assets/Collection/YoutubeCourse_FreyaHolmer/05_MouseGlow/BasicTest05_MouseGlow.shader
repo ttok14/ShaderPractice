@@ -1,4 +1,4 @@
-Shader "YoutubeCourse/BasicTest04_Specular"
+Shader "YoutubeCourse/BasicTest05_MouseGlow"
 {
 	Properties
 	{
@@ -40,6 +40,10 @@ Shader "YoutubeCourse/BasicTest04_Specular"
 	float4 _Color;
 	float _Gloss;
 
+	/// Shader Global Variable 선언 .
+	///	=> CPU 레벨에서 설정해줘야 하는 값 
+	uniform float3 _MousePos;
+
 	FragmentInput vert(VertexInput v)
 	{
 		FragmentInput o;
@@ -51,48 +55,44 @@ Shader "YoutubeCourse/BasicTest04_Specular"
 		return o;
 	}
 
+	float3 Posterize(float step, float v)
+	{
+		return round(v * step) / step;
+	}
+
 	float4 frag(FragmentInput i) : SV_Target
 	{
-		// *** fragment 의 input 값은 파이프라인 중간에 interpolate 된 값이므로 
-		// Vertex Shader 에서 normal 을 normalize 하여 보냈다고 하여도 
-		// 크기가 1 인 정규화된 vector 가 아닐수가 있기에 normalize 진행한다 *** //
 		i.normal = normalize(i.normal);
-
-		/// #include "UnityLightingCommon.cginc" 선언하면 
-		/// UnityLightingCommon.cginc 에 접근해서 가져올수 있음
 		float3 lightDir = _WorldSpaceLightPos0;
 		float4 lightColor = _LightColor0;
-
 		/// Diffuse 
 		float4 diffuse = max(0, dot(i.normal, lightDir)) * _Color;
-
 		/// Ambient
 		float4 ambient = float4(0.15, 0.15, 0.3, 0);
-
 		float3 camPos = _WorldSpaceCameraPos;
 		float3 dirView = normalize(camPos - i.worldPos);
-
-		/// CG Document 참고하면 됨 . 
-		/// 반사 벡터 구해주는 함수 
 		float3 reflectDir = reflect(dirView, i.normal);
-
-		/// Specular 
 		float specular = max(0, dot(reflectDir, -lightDir));
+		specular = Posterize(7,  pow(specular, _Gloss));
 
-		/// 중요한거 . 제곱 연산 ( Pow ) 적용 
-		specular = pow(specular, _Gloss);
+		/// 가장 중요한거 .
+		///		- fragment 의 WorldPosition 과 Mouse Hit Pos 의 거리를 구해서
+		///			해당 fragment 의 glow 를 계산 
+		float dist = distance(_MousePos, i.worldPos);
 
-		float4 finalColor = specular * lightColor + diffuse;
+		/// saturate => clamp ( 0 , 1 , value ) 임 . 
+		///		즉 0.5 - dist 이기 때문에 Mouse Pos 에 가까운 fragment 일수록 값이 커짐
+		///				=> 가까울수록 밝게 하기 위해 ( + 연산으로 )
+		float glow = saturate(0.5 - dist);
+		// return dist;
+
+		float4 finalColor = specular * lightColor + diffuse + glow; /// glow 를 + 해서 적용 
 
 		return float4(finalColor.xyz,0);
-
-		/// (응용) Scene Light 랑 상관없이 그냥 카메라가 바라보는 면만 Specular 라이트 적용
-		// float specularLightRegardless = pow( max(0, dot( dirView, i.normal)) , _Gloss );
-		// return float4(specularLightRegardless, specularLightRegardless, specularLightRegardless, 0);
 	}
 
 		/// CG 프로그램 끝을 알림 
 		ENDCG
-	}
+		}
 	}
 }
