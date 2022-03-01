@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class YoutubeCourse_MouseGlow : MonoBehaviour
+public class YoutubeCourse_Shoreline : MonoBehaviour
 {
     private void Update()
     {

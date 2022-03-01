@@ -54,9 +54,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\RandomRotation.cs" />
+    <Compile Include="Assets\Collection\YoutubeCourse_FreyaHolmer\06_ShoreLine\YoutubeCourse_Shoreline.cs" />
+    <Compile Include="Assets\Collection\YoutubeCourse_FreyaHolmer\05_MouseGlow\YoutubeCourse_MouseGlow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Collection\Basic_Texture\OnlyTexture.shader" />
+    <None Include="Assets\Collection\YoutubeCourse_FreyaHolmer\05_MouseGlow\BasicTest05_MouseGlow.shader" />
+    <None Include="Assets\Collection\FogTest\BuiltInAdditive.shader" />
+    <None Include="Assets\Collection\YoutubeCourse_FreyaHolmer\ReadMe.txt" />
+    <None Include="Assets\Collection\YoutubeCourse_FreyaHolmer\01_DiffuseAmbient\BasicTest01_DiffuseAmbient.shader" />
+    <None Include="Assets\Collection\YoutubeCourse_FreyaHolmer\04_Specular\BasicTest04_Specular.shader" />
+    <None Include="Assets\Collection\FogTest\FogTest_Custom.shader" />
+    <None Include="Assets\Collection\YoutubeCourse_FreyaHolmer\02_UnityLight\BasicTest02_UnityLight.shader" />
+    <None Include="Assets\Collection\YoutubeCourse_FreyaHolmer\06_ShoreLine\BasicTest06_Shoreline.shader" />
+    <None Include="Assets\Collection\YoutubeCourse_FreyaHolmer\03_ColorPorpDifAmb\BasicTest03_ColorPropDifAmb.shader" />
     <None Include="Assets\Collection\RimLight\RimLight.shader" />
     <None Include="Assets\Collection\DiffuseLight\DiffuseLight.shader" />
     <None Include="Assets\Collection\SpecularLight\SpecularLight.shader" />
