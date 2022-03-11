@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: b86352b7341b4704f99ca23310ef1391
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Mob10001_0
+  - first:
+      213: 21300002
+    second: Mob10001_1
+  - first:
+      213: 21300004
+    second: Mob10001_2
+  - first:
+      213: 21300006
+    second: Mob10001_3
+  - first:
+      213: 21300008
+    second: Mob10001_4
+  - first:
+      213: 21300010
+    second: Mob10001_5
+  - first:
+      213: 21300012
+    second: Mob10001_6
+  - first:
+      213: 21300014
+    second: Mob10001_7
+  - first:
+      213: 21300016
+    second: Mob10001_8
+  - first:
+      213: 21300018
+    second: Mob10001_9
+  - first:
+      213: 21300020
+    second: Mob10001_10
+  - first:
+      213: 21300022
+    second: Mob10001_11
+  - first:
+      213: 21300024
+    second: Mob10001_12
+  - first:
+      213: 21300026
+    second: Mob10001_13
+  - first:
+      213: 21300028
+    second: Mob10001_14
+  - first:
+      213: 21300030
+    second: Mob10001_15
+  - first:
+      213: 21300032
+    second: Mob10001_16
+  - first:
+      213: 21300034
+    second: Mob10001_17
+  - first:
+      213: 21300036
+    second: Mob10001_18
+  - first:
+      213: 21300038
+    second: Mob10001_19
+  - first:
+      213: 21300040
+    second: Mob10001_20
+  - first:
+      213: 21300042
+    second: Mob10001_21
+  - first:
+      213: 21300044
+    second: Mob10001_22
+  - first:
+      213: 21300046
+    second: Mob10001_23
+  - first:
+      213: 21300048
+    second: Mob10001_24
+  - first:
+      213: 21300050
+    second: Mob10001_25
+  - first:
+      213: 21300052
+    second: Mob10001_26
+  - first:
+      213: 21300054
+    second: Mob10001_27
+  - first:
+      213: 21300056
+    second: Mob10001_28
+  - first:
+      213: 21300058
+    second: mob10009_0
+  - first:
+      213: 21300060
+    second: mob10009_1
+  - first:
+      213: 21300062
+    second: mob10009_2
+  - first:
+      213: 21300064
+    second: mob10009_3
+  - first:
+      213: 21300066
+    second: mob10009_4
+  - first:
+      213: 21300068
+    second: mob10009_5
+  - first:
+      213: 21300070
+    second: mob10009_6
+  - first:
+      213: 21300072
+    second: mob10009_7
+  - first:
+      213: 21300074
+    second: mob10009_8
+  - first:
+      213: 21300076
+    second: mob10009_9
+  - first:
+      213: 21300078
+    second: mob10009_10
+  - first:
+      213: 21300080
+    second: mob10009_11
+  - first:
+      213: 21300082
+    second: mob10009_12
+  - first:
+      213: 21300084
+    second: mob10009_13
+  - first:
+      213: 21300086
+    second: mob10009_14
+  - first:
+      213: 21300088
+    second: mob10009_15
+  - first:
+      213: 21300090
+    second: mob10009_16
+  - first:
+      213: 21300092
+    second: mob10009_17
+  - first:
+      213: 21300094
+    second: mob10009_18
+  - first:
+      213: 21300096
+    second: mob10009_19
+  - first:
+      213: 21300098
+    second: mob10009_20
+  - first:
+      213: 21300100
+    second: mob10009_21
+  - first:
+      213: 21300102
+    second: mob10009_22
+  - first:
+      213: 21300104
+    second: mob10009_23
+  - first:
+      213: 21300106
+    second: mob10009_24
+  - first:
+      213: 21300108
+    second: mob10009_25
+  - first:
+      213: 21300110
+    second: mob10009_26
+  - first:
+      213: 21300112
+    second: mob10009_27
+  - first:
+      213: 21300114
+    second: mob10009_28
+  - first:
+      213: 21300116
+    second: mob10009_29
+  - first:
+      213: 21300118
+    second: mob10009_30
+  - first:
+      213: 21300120
+    second: mob10009_31
+  - first:
+      213: 21300122
+    second: mob10009_32
+  - first:
+      213: 21300124
+    second: mob10009_33
+  - first:
+      213: 21300126
+    second: mob10009_34
+  - first:
+      213: 21300128
+    second: mob10009_35
+  - first:
+      213: 21300130
+    second: mob10009_36
+  - first:
+      213: -2706031671275357113
+    second: mob10005_0
+  - first:
+      213: 3558747480185748130
+    second: mob10005_1
+  - first:
+      213: 6517168737812613361
+    second: mob10005_2
+  - first:
+      213: 498679774347346370
+    second: mob10005_3
+  - first:
+      213: -5191122396919105957
+    second: mob10005_4
+  - first:
+      213: 9114703362238624527
+    second: mob10005_5
+  - first:
+      213: 4364181297949484933
+    second: mob10005_6
+  - first:
+      213: 2719632006814539832
+    second: mob10005_7
+  - first:
+      213: -4992263942120769546
+    second: mob10005_8
+  - first:
+      213: 6909822530487958487
+    second: mob10005_9
+  - first:
+      213: 3630915697499735896
+    second: mob10005_10
+  - first:
+      213: 935313832988130221
+    second: mob10005_11
+  - first:
+      213: -75331547771980802
+    second: mob10005_12
+  - first:
+      213: -777476635127585254
+    second: mob10005_13
+  - first:
+      213: -8686705672267415214
+    second: mob10005_14
+  - first:
+      213: -6564529139506755875
+    second: mob10005_15
+  - first:
+      213: -2853348279063996995
+    second: mob10005_16
+  - first:
+      213: -5386930251215782340
+    second: Mob10005_0
+  - first:
+      213: 3972436687226638092
+    second: Mob10005_1
+  - first:
+      213: -7773910393078090247
+    second: Mob10005_2
+  - first:
+      213: -7139702778514708155
+    second: Mob10005_3
+  - first:
+      213: 3990594115955897177
+    second: Mob10005_4
+  - first:
+      213: 6776377146689227668
+    second: Mob10005_5
+  - first:
+      213: 540549758582825960
+    second: Mob10005_6
+  - first:
+      213: 8997370290311070804
+    second: Mob10005_7
+  - first:
+      213: 1069551689545183708
+    second: Mob10005_8
+  - first:
+      213: -7409945392836727231
+    second: Mob10005_9
+  - first:
+      213: -8009898111055597033
+    second: Mob10005_10
+  - first:
+      213: 6722516283766735316
+    second: Mob10005_11
+  - first:
+      213: 6324050450784079065
+    second: Mob10005_12
+  - first:
+      213: -2320579234356827580
+    second: Mob10005_13
+  - first:
+      213: 3718042709919395290
+    second: Mob10005_14
+  - first:
+      213: 7837210797608599916
+    second: Mob10005_15
+  - first:
+      213: 2337120238996082260
+    second: Mob10005_16
+  - first:
+      213: 2286343469430784890
+    second: Mob10005_17
+  - first:
+      213: -5865848527904085835
+    second: Mob10005_18
+  - first:
+      213: -3276484820840314996
+    second: Mob10005_19
+  - first:
+      213: 9015851728638683000
+    second: Mob10005_20
+  - first:
+      213: 3302616123681267920
+    second: Mob10005_21
+  - first:
+      213: -2489244162293823458
+    second: Mob10005_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mob10005_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e3a7a4a77cd35b0800000000000000
+      internalID: -5386930251215782340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 156
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f8fd2ce1ee02730800000000000000
+      internalID: 3972436687226638092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 156
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5fcd87fa58d1490800000000000000
+      internalID: -7773910393078090247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 156
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e2c4962eaaec90800000000000000
+      internalID: -7139702778514708155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 156
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953b0549430716730800000000000000
+      internalID: 3990594115955897177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 156
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b8c74bc178a0e50800000000000000
+      internalID: 6776377146689227668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 156
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3a0c7342b608700800000000000000
+      internalID: 540549758582825960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45405a2eb941ddc70800000000000000
+      internalID: 8997370290311070804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 104
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1724c489fc7de00800000000000000
+      internalID: 1069551689545183708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 104
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14eaceebce59a2990800000000000000
+      internalID: -7409945392836727231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_10
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 104
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71275733b1027d090800000000000000
+      internalID: -8009898111055597033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 104
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d102b251fc2b4d50800000000000000
+      internalID: 6722516283766735316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 104
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc42a4f06a83c750800000000000000
+      internalID: 6324050450784079065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 104
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a63073b75abcfd0800000000000000
+      internalID: -2320579234356827580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adde9784524299330800000000000000
+      internalID: 3718042709919395290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 52
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61015572bd53cc60800000000000000
+      internalID: 7837210797608599916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 52
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eccba897e1f6020800000000000000
+      internalID: 2337120238996082260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_17
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 52
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73c4f99549babf10800000000000000
+      internalID: 2286343469430784890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_18
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 52
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8670ca7d1589ea0800000000000000
+      internalID: -5865848527904085835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 52
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c878add3a669782d0800000000000000
+      internalID: -3276484820840314996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_20
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 52
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877a911116dbe1d70800000000000000
+      internalID: 9015851728638683000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0ef71dddf35dd20800000000000000
+      internalID: 3302616123681267920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mob10005_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 67
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18034b7f9d647dd0800000000000000
+      internalID: -2489244162293823458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ba8e133a3dab71e42a95b0138689ff8f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
